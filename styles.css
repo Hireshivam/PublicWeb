@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#helloBtn {
+    background-color: lavender;
+}
+
+#byeBtn {
+    background-color: lightyellow;
+}
+
+#displayText {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    min-height: 60px;
+}
